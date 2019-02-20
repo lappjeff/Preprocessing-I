@@ -149,20 +149,89 @@ h5 {
   margin-bottom: 15px;
 }
 .container {
-  width: 95vw;
+  width: 100vw;
   height: 100vh;
   margin: 0 auto;
+  background-image: url(../images/header-img.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.5rem;
 }
 nav {
-  margin: 20px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  padding: 30px;
 }
 nav a {
-  margin-left: 40px;
   text-decoration: none;
-  color: #dea48b;
+  color: #133852;
+  margin: 0 65px;
 }
 header {
-  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 25%;
+  margin-top: 50px;
+  color: #133852;
+}
+header button {
+  height: 30px;
+  width: 24%;
+  margin-top: 20px;
+  border: 1px solid white;
+  background: #133852;
+  border-radius: 30px;
+}
+header button a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+section {
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+section div {
+  border: 1px solid red;
+  height: 50%;
+  width: 48%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #133852;
+  background-color: white;
+}
+section .skills h2 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+section .skills ul {
+  list-style-type: square;
+}
+section .skills div {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-end;
+  background-color: white;
+  height: 15%;
+}
+footer p {
+  color: #dea48b;
 }
