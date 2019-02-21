@@ -170,9 +170,6 @@ h1 {
 h2 {
   font-size: 1.5rem;
 }
-ul {
-  list-style-type: square;
-}
 nav {
   display: flex;
   justify-content: center;
@@ -259,6 +256,11 @@ section .skills div {
   flex-direction: column;
   width: 50%;
   height: 100%;
+}
+@media (max-width: 500px) {
+  section .skills .upcoming {
+    margin-bottom: 35px;
+  }
 }
 section .intro {
   flex-direction: column;
